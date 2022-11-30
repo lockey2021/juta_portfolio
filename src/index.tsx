@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import './index.module.scss';
 import SomeExampleComponent from './components/example/someExampleComponent';
-import MyFirstComponent from './components/myFirstComponent';
+import MyFirstComponent from './components/example/myFirstComponent';
 import Navbar from './components/navbar/navbar';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
