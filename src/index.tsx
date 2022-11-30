@@ -10,12 +10,14 @@ import {
 import './index.module.scss';
 import SomeExampleComponent from './components/example/someExampleComponent';
 import MyFirstComponent from './components/myFirstComponent';
+import Navbar from './components/navbar/navbar';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='/example' element={<SomeExampleComponent />} />
