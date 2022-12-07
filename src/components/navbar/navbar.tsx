@@ -12,6 +12,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       <Link to="/">Home</Link>
       <Link to="/first">My First Component</Link>
       <Link to="/example">My Example Component</Link>
+      <Link to="/aboutme">About me</Link>
     </div>
   )
 }

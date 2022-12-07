@@ -9,7 +9,6 @@ const App: React.FC = () => {
     <div>
       <MyFirstComponent />
       <SomeExampleComponent />
-      <ClickCount />
     </div>
   )
 }
