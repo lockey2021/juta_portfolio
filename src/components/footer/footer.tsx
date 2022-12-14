@@ -16,7 +16,7 @@ const Footer: React.FC<FooterProps> = () => {
       </p>
       <p className={styles.copyright}>Juta Lockey © 2022</p>
       <div className={styles.linksIcon}>
-        <a href='www.linkedin.com/in/juta-lockey-03080868'><i><FaLinkedin size={36} color="pink"/></i>
+        <a href='https://www.linkedin.com/in/juta-lockey-03080868'><i><FaLinkedin size={36} color="pink"/></i>
         </a>
       </div>
     </div>

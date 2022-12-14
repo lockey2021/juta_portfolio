@@ -50,10 +50,25 @@
     .burger{
       display: flex;
       flex-direction: column;
+      height: 150px;
+      width: 125px;
     }
     .burger button{
       border: none;
       background-color: #1ad7b2;
+    }
+    ul {
+      background-color: pink;
+    }
+    li {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+      color: black; //only currently example not finished
+      &:hover {
+        color: yellow;
+      }
     }
     
   }

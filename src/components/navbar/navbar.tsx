@@ -22,7 +22,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       <div className={styles.burger}>
       <button onClick={() => setOpen(!open)}><RxHamburgerMenu size={35} color="white"/></button>
       {open && (
-      <div className='dropDown'>
+      <div className={styles.dropDown}>
         <ul>
           <li><a href='/'>Home</a></li>
           <li><a href='/aboutme'>About me</a></li>
