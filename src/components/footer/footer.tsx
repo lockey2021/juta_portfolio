@@ -12,7 +12,7 @@ const Footer: React.FC<FooterProps> = () => {
     <div className={styles.footerLeft}>
       <h3>Juta's portfolio</h3>
       <p className={styles.footlinks}>
-        <a href='/'>Home</a>
+        <a href="/">Home</a>
       </p>
       <p className={styles.copyright}>Juta Lockey © 2022</p>
       <div className={styles.linksIcon}>
