@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import {RxDropdownMenu, RxHamburgerMenu} from 'react-icons/rx'
+import {RxHamburgerMenu} from 'react-icons/rx'
 import styles from './navbar.module.scss'
 
 type NavbarProps = {
