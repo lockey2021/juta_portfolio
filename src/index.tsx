@@ -11,6 +11,7 @@ import './index.module.scss';
 import SomeExampleComponent from './components/example/someExampleComponent';
 import MyFirstComponent from './components/example/myFirstComponent';
 import Navbar from './components/navbar/navbar';
+import AboutMe from './components/aboutMe/aboutMe';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -22,6 +23,7 @@ root.render(
         <Route path='/' element={<App />}></Route>
         <Route path='/example' element={<SomeExampleComponent />} />
         <Route path='/first' element={<MyFirstComponent />} />
+        <Route path='/aboutme' element={<AboutMe />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
