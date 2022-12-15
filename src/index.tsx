@@ -12,6 +12,7 @@ import SomeExampleComponent from './components/example/someExampleComponent';
 import MyFirstComponent from './components/example/myFirstComponent';
 import Navbar from './components/navbar/navbar';
 import AboutMe from './components/aboutMe/aboutMe';
+import Footer from './components/footer/footer';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -25,6 +26,7 @@ root.render(
         <Route path='/first' element={<MyFirstComponent />} />
         <Route path='/aboutme' element={<AboutMe />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

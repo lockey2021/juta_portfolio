@@ -27,18 +27,27 @@ h3{
 	font: normal 22px 'Roboto', cursive;
 	margin: 0 0 0;
 }
-.footlinks{
+li {
+	list-style-type: none;
+
+}
+.footLinks{
 	color:  #ffffff;
 	margin: 0 0 10px;
 	padding: 0;
+	text-decoration: none;
+	&:hover {
+		color: pink;
+	}
 }
 
-.footlinks a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
+//.footlinks li{
+//	display:inline-block;
+//	line-height: 1.8;
+//	text-decoration: none;
+//	color:  inherit;
+//}
+
 
 .copyright{
 	color:  #8f9296;
