@@ -29,9 +29,9 @@ const Footer: React.FC<FooterProps> = () => {
           </div>
       <p className={styles.copyright}>Juta Lockey © 2022</p>
       <div className={styles.linksIcon}>
-        <a href='https://www.linkedin.com/in/juta-lockey-03080868'><i><FaLinkedin size={36} color="pink" /></i>
+        <a href='https://www.linkedin.com/in/juta-lockey-03080868' target="_blank" rel='noopener noreferrer'><i><FaLinkedin size={36} color="pink" /></i>
         </a>
-        <a href='https://play.unity.com/u/lockey2021'><i><FaUnity size={36} color="pink" /></i></a>
+        <a href='https://play.unity.com/u/lockey2021' target="_blank" rel='noopener noreferrer'><i><FaUnity size={36} color="pink" /></i></a>
       </div>
     </div><div className={styles.footerRight}>
         <p>Contact me if you dare</p>

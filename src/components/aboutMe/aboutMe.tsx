@@ -10,7 +10,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
     <div className={styles.container}>
       <div>
     <h1>About me</h1>
-    <p>I'm a </p>
+    <p>I'm a</p>
   </div></div>
     
   )
