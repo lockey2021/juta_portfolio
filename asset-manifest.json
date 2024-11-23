@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.5d5c5d1c.css",
-    "main.js": "./static/js/main.7335401e.js",
+    "main.css": "./static/css/main.559105ba.css",
+    "main.js": "./static/js/main.2708334c.js",
     "static/js/787.c9ac72f5.chunk.js": "./static/js/787.c9ac72f5.chunk.js",
-    "static/media/backgroundTest.jpg": "./static/media/backgroundTest.4657d7d078c4d6467392.jpg",
+    "static/media/beautifulSky.jpg": "./static/media/beautifulSky.3706d8a1da3aae42d33c.jpg",
+    "static/media/SQLinjection2.png": "./static/media/SQLinjection2.4fea3f9767535d801ee1.png",
+    "static/media/CrazyTallinnpicture2.png": "./static/media/CrazyTallinnpicture2.102b86dd2f16707009c8.png",
+    "static/media/realistic-phone-studio-social-media-concept.png": "./static/media/realistic-phone-studio-social-media-concept.92352a9a710a71f60b43.png",
+    "static/media/LegoGame.png": "./static/media/LegoGame.f33731c3034316f5f8e0.png",
+    "static/media/navbarIM.jpg": "./static/media/navbarIM.1ed6bb8a5f51ded14ccf.jpg",
+    "static/media/footerIM.jpg": "./static/media/footerIM.0364e6ac25bd6957d4f2.jpg",
+    "static/media/JutaLockeyOhjelmointiSuomiCV23112024.pdf": "./static/media/JutaLockeyOhjelmointiSuomiCV23112024.6d55a7b32348bcf79f1b.pdf",
+    "static/media/JutaProgrammingCV23112024.pdf": "./static/media/JutaProgrammingCV23112024.0a4f35c2177f6bbb2a20.pdf",
     "index.html": "./index.html",
-    "main.5d5c5d1c.css.map": "./static/css/main.5d5c5d1c.css.map",
-    "main.7335401e.js.map": "./static/js/main.7335401e.js.map",
+    "main.559105ba.css.map": "./static/css/main.559105ba.css.map",
+    "main.2708334c.js.map": "./static/js/main.2708334c.js.map",
     "787.c9ac72f5.chunk.js.map": "./static/js/787.c9ac72f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d5c5d1c.css",
-    "static/js/main.7335401e.js"
+    "static/css/main.559105ba.css",
+    "static/js/main.2708334c.js"
   ]
 }
