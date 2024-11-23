@@ -51,8 +51,8 @@ const Contact: React.FC<ContactProps> = () => {
         <div className={styles.animationBackground}>
           <div className={styles.contactAnimation}> 
             <form onSubmit={handleSubmit} method='post' id='contactForm'>
-                <input type='text' name='name'  placeholder={t('contact.name')} value={name} onChange={(e) => setName(e.target.value)} required></input>
-                <input type='text' name='email' placeholder={t('contact.email')} value={email} onChange={(e) => setEmail(e.target.value)} required></input>
+                <input type='text' name='name'  placeholder={t('contact.name')} value={name} onChange={(e) => setName(e.target.value)} required autoComplete='name'></input>
+                <input type='text' name='email' placeholder={t('contact.email')} value={email} onChange={(e) => setEmail(e.target.value)} required autoComplete='email'></input>
                 <textarea name='message' placeholder={t('contact.message')} value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
                 <button type="submit" value='Submit'>{t('contact.send')}</button>
             </form>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import {RxHamburgerMenu} from 'react-icons/rx'
 import styles from './navbar.module.scss'
@@ -29,6 +29,10 @@ const Navbar: React.FC<NavbarProps> = () => {
   const handleLinkClick = () => {
     setMenuOpen(false);
   };
+
+  useEffect (() => {
+    document.title = t('header.title');
+  }, [i18n.language, t])
   
 
   return (

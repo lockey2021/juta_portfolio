@@ -1,4 +1,8 @@
 {
+  "header": {
+    "title": "Jutan portfolio"
+  },
+
     "navbar": {
       "myPortfolio": "Jutan portfolio",
       "home": "Etusivu",

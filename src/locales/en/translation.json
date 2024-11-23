@@ -1,4 +1,9 @@
 {
+  "header": {
+    "title": "Juta's portfolio"
+  },
+
+
     "navbar": {
       "myPortfolio": "Juta's portfolio",
       "home": "Home",

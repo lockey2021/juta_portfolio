@@ -79,8 +79,8 @@ const Footer: React.FC<FooterProps> = () => {
     </div><div className={styles.footerRight}>
         <p>{t('footer.contact')}</p>
         <form onSubmit={handleSubmit} method='post' id='contactForm'>
-          <input type='text' name='name' placeholder={t('footer.name')} value={name} onChange={(e) => setName(e.target.value)} required></input>
-          <input type='text' name='email' placeholder={t('footer.e-mail')} value={email} onChange={(e) => setEmail(e.target.value)} required>
+          <input type='text' name='name' placeholder={t('footer.name')} value={name} onChange={(e) => setName(e.target.value)} required autoComplete='name'></input>
+          <input type='text' name='email' placeholder={t('footer.e-mail')} value={email} onChange={(e) => setEmail(e.target.value)} required autoComplete='email'>
           </input>
           <textarea name='message' placeholder={t('footer.message')} value={message} onChange={(e) => setMessage(e.target.value)} required>
 
