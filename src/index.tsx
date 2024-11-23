@@ -8,23 +8,29 @@ import {
   Route,
 } from "react-router-dom";
 import './index.module.scss';
-import SomeExampleComponent from './components/example/someExampleComponent';
-import MyFirstComponent from './components/example/myFirstComponent';
+import MyCV from './components/sites/CV/cv';
+import Myprojects from './components/sites/projects/projects'
 import Navbar from './components/navbar/navbar';
-import AboutMe from './components/aboutMe/aboutMe';
+import AboutMe from './components/sites/aboutMe/aboutMe'
 import Footer from './components/footer/footer';
+import Contact from './components/sites/contact/contact';
+import './i18n'; //Import the i18n configuration
+import ScrollToTop from './components/scrollTop/scrollTop';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
     <HashRouter>
+      <ScrollToTop />
     <Navbar />
       <Routes>
         <Route path='/' element={<App />} />
-        <Route path='/example' element={<SomeExampleComponent />} />
-        <Route path='/first' element={<MyFirstComponent />} />
-        <Route path='/aboutme' element={<AboutMe />} />
+        <Route path='/CV' element={<MyCV />} />
+        <Route path='/Projects' element={<Myprojects />} />
+        <Route path='/Aboutme' element={<AboutMe />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </HashRouter>

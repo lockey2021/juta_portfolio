@@ -1,0 +1,110 @@
+{
+    "navbar": {
+      "myPortfolio": "Jutan portfolio",
+      "home": "Etusivu",
+      "myCV": "Minun ansioluetteloni",
+      "myProjects" : "Minun projektejani",
+      "about": "Minusta",
+      "contact": "Ota yhteyttä",
+      "languageEN": "English- Englanti",
+      "languageFI": "Finnish- Suomi"
+    },
+
+    "footer": {
+      "emailAlert": "Anna kelvollinen sähköpostiosoite \"@\"-symbolilla.",
+      "alert": "Viesti lähetetty!",
+      "consoleError": "Virhe lähetettäessä viestiä:",
+      "errorAlert": "Oho! Jotain meni pieleen. Yritä myöhemmin uudelleen.",
+      "myPortfolio": "Jutan portfolio",
+      "home": "Etusivu",
+      "myCV": "Minun ansioluetteloni",
+      "myProjects": "Minun projektejani",
+      "about": "Minusta",
+      "contact": "Ota yhteyttä",
+      "copyright": "Juta Lockey. Kaikki oikeudet pidätetään.",
+      "name": "Nimi",
+      "e-mail": "Sähköposti",
+      "message": "Viesti",
+      "send": "Lähetä"
+    },
+
+    "home": {
+      "title": "Tervetuloa portfoliooni!",
+      "myName": "Olen Juta Lockey.",
+      "myJob": "Nuorempi ohjelmistokehittäjä",
+      "description1": "Ohjelmointimatkani alkoi ohjelmointimaailmaan elokuussa 2021. Valmistuin äskettäin Varian ammattikoulusta toukokuussa 2024. Lisäksi opiskelen tällä hetkellä osittain Metropolian ammattikorkeakoulussa.",
+      "description2": "Olen nopea oppija, erittäin motivoitunut ja ahkera. Olen hyvä tiimipelaaja ja pystyn myös itsenäiseen työskentelyyn erittäin hyvin.",
+      "moreAboutMe" : "Lisää minusta",
+      "hireMe": "Palkkaa minut",
+      "openCV": "Avaa ansioluettelo",
+      "projects": "Projektit"
+    },
+
+    "cv": {
+      "cv": "Minun ansioluetteloni",
+      "programming": "Ohjelmointikokemus:",
+      "company": "Lokkit Oy (työharjoittelu)",
+      "date": "Elokuu 2022 – Toukokuu 2024",
+      "title": "Projektipäällikön työharjoittelu",
+      "jobDescription": "Haastattelin ja palkkasin tiimin jäseniä, annoin heille pääsyn järjestelmiin, loin järjestelmiä, joita käytimme projektin aikana, ylensin työntekijöitä scrum masteriksi, rakensin järjestelmäarkkitehtuurin tuotteen omistajien toiveiden mukaan mukaan lukien eri työkalujen ja tietokonekielien valitseminen, joita käytin omistajien haluamien tuotteiden luomiseen, järjestin tapaamisia ja säännöllisiä palavereita tiimin jäsenten ja omistajien kanssa keskustellakseni edistymisestä ja jakaakseni tehtäviä tiimeille sekä varmistin, että työn eteneminen on mukavaa ja sujuvaa, tilasin ja ostin projektiin tarvittavia laitteita, käsittelin jokaisen tiimimme jäsenen sopimuksia, loin kaikki oppimisresurssit uusille jäsenillemme, analysoin kaikkea dataa, joka meillä oli ja mitä olemme saaneet eri tiimin jäseniltä.",
+      "learnt": "Taidot:",
+      "electrical": "Sähköjärjestelmät",
+      "leading": "Tiimien johtaminen",
+      "educationTitle": "Koulutustausta:",
+      "school": "Varian ammattikoulu",
+      "schoolDate": "Elokuu 2021 – Toukokuu 2024",
+      "degree": "Tieto- ja viestintätekniikan perustutkinto, erikoistuminen ohjelmistokehitykseen",
+      "grade": "Keskimääräinen arvosana: 4,97",
+      "soldering": "Juottaminen",
+      "cybersecurity": "Kyberturvallisuus",
+      "languages": "Kielet:",
+      "estonian": "Viro:",
+      "proficiency": "Äidinkieli/kaksikielinen taito",
+      "english": "Englanti:",
+      "finnish": "Suomi:",
+      "fiProficiency": "Ammattimainen työtaito",
+      "russian": "Venäjä:",
+      "ruProficiency": "Perustaito",
+      "resume": "Katso koko ansioluettelo"
+    },
+
+    "projects": {
+      "projects": "Minun projekteja",
+      "desc": "Kuvaus: ",
+      "lego": "Lego-peli",
+      "legoDesc": "Rakensin tämän pelin Lego-opetusohjelmalla ja niiden materiaalipaketilla. Tämä oli yksi ensimmäisistä kokemuksistani monitasoisen pelin rakentamisessa.",
+      "skills": "Opitut taidot:",
+      "nameLego": "Kolmitasoinen Lego-peli",
+      "tallinn": "Crazy Tallin peli",
+      "tallinnDesc": "Tämä on ensimmäinen peli, jonka rakensin. Minä valitsin kaikki resurssit ja kappaleet, ja suunnittelin pelin.",
+      "nameTallinn": "Crazy Tallinn peli",
+      "SQLinject": "SQL-injektion verkkosivusto",
+      "SQLDesc": "Rakensin tämän luokkatoverini kanssa. Tein koko taustajärjestelmän ja myös kotisivun, navigointipalkin ja osan kirjautumissivujen koodista.",
+      "cyber": "Kyberturvallisuus"
+    },
+
+    "about": {
+      "title": "Minusta",
+      "name": "Olen Juta Lockey",
+      "jobTitle": "Nuorempi ohjelmistokehittäjä",
+      "description1": "Ohjelmointimatkani alkoi ohjelmointimaailmaan elokuussa 2021. Valmistuin äskettäin Varian ammattikoulusta toukokuussa 2024. Opiskelen myös tällä hetkellä osittain Metropolian ammattioppilaitoksessa.",
+      "description2": "Olen nopea oppija, erittäin motivoitunut ja ahkera. Olen hyvä tiimipelaaja ja pystyn myös itsenäiseen työskentelyyn erittäin hyvin. Pyrin aina pysymään ajan tasalla teknologia-alan viimeisimmistä asioista. Pitääkseni itseni ajan tasalla kaikesta osallistun moniin seminaareihin ja messuihin, Kuten teknologia- ja kyberturvallisuusmessut.",
+      "description3": "Tärkeää työssäni on aina rakentaa asiakkaalle hyvä ohjelma, joka on turvallinen käyttää, helppokäyttöinen ja toimiva. Turvallisuus on yksi tärkeimmistä painopisteistäni, sillä Variassa opiskellessani opiskelin myös kyberturvallisuutta, ja tiedän, että turvallisuuden tulee olla jokaisen ohjelmoijan mielessä.",
+      "description4": "Harrastuksiani ovat: ulkoilu ja matkustaminen. Viihdyn myös ystävien kanssa.",
+      "contact": "Ota yhteyttä",
+      "cv": "Avaa ansioluettelo",
+      "projects": "Projektit"
+    },
+
+    "contact": {
+      "emailAlert": "Anna kelvollinen sähköpostiosoite \"@\"-symbolilla.",
+      "alert": "Viesti lähetetty!",
+      "consoleError": "Virhe lähetettäessä viestiä:",
+      "errorAlert": "Oho! Jotain meni pieleen. Yritä myöhemmin uudelleen.",
+      "title": "Ota yhteyttä",
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "message": "Viesti",
+      "send": "Lähetä"
+    }
+  }

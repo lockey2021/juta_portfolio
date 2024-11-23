@@ -1,0 +1,110 @@
+{
+    "navbar": {
+      "myPortfolio": "Juta's portfolio",
+      "home": "Home",
+      "myCV": "My CV",
+      "myProjects" : "My Projects",
+      "about": "About me",
+      "contact": "Contact me",
+      "languageEN": "English- Englanti",
+      "languageFI": "Finnish- Suomi"
+    },
+
+    "footer": {
+      "emailAlert": "Please enter a valid email address with an \"@\" symbol.",
+      "alert": "Message sent!",
+      "consoleError": "Error sending a message: ",
+      "errorAlert": "Oops! Something went wrong. Please try again later.",
+      "myPortfolio": "Juta's portfolio",
+      "home": "Home",
+      "myCV": "My CV",
+      "myProjects": "My Projects",
+      "about": "About me",
+      "contact": "Contact me",
+      "copyright": "Juta Lockey. All rights reserved.",
+      "name": "Name",
+      "e-mail": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+
+    "home": {
+      "title": "Welcome to my portfolio!",
+      "myName": "I am Juta Lockey.",
+      "myJob": "Junior software developer",
+      "description1": "My programming journey started into the programming world in August 2021. I have recently graduated from Varia vocational school in May 2024. Also I'm currently studying partially in Metropolia higher vocational school.",
+      "description2": "I am a quick learner, highly motivated and hard working. I am a good team player and also capable of working independently very well also.",
+      "moreAboutMe" : "More about me",
+      "hireMe": "Hire me",
+      "openCV": "Open CV",
+      "projects": "Projects"
+    },
+
+    "cv": {
+      "cv": "My Curriculum Vitae",
+      "programming": "Programming experience:",
+      "company": "Lokkit Oy (internship)",
+      "date": "August 2022 – May 2024",
+      "title": "Project manager internship",
+      "jobDescription": "Interviewing and hiring team members, giving them access to the systems, creating systems that we will use during the project, promoting workers to scrum masters, building a system’s architecture with the requests of the product owners including choosing the different tools and computer languages that we were using to create the products the product owners wanted, arranging meetings and regularly meeting with the team members and owners to discuss progress and assign tasks to the teams and also making sure the work progression is nice and smooth, ordering and purchasing devices needed for the project, dealing with the contracts for each member of our team, creating all of the learning resources for our new members, analysing all of the data we had and were getting from different team members.",
+      "learnt": "Skills learnt:",
+      "electrical": "Electrical systems",
+      "leading": "Leading teams",
+      "educationTitle": "Educational Background:",
+      "school": "Varia vocational school",
+      "schoolDate": "August 2021 – May 2024",
+      "degree": "Information and communication technologies degree with specialising in software development",
+      "grade": "Average grade: 4,97",
+      "soldering": "Soldering",
+      "cybersecurity": "Cybersecurity",
+      "languages": "Languages:",
+      "estonian": "Estonian:",
+      "proficiency": "Native / Bilingual Proficiency",
+      "english": "English:",
+      "finnish": "Finnish:",
+      "fiProficiency": "Professional Working Proficiency",
+      "russian": "Russian:",
+      "ruProficiency": "Elementary Proficiency",
+      "resume": "View full resume"
+    },
+
+    "projects": {
+      "projects": "My Projects",
+      "desc": "Description: ",
+      "lego": "Lego game",
+      "legoDesc": "I built this game using the Lego tutorial and their asset pack. This was one of my first experiences building a multi-level game.",
+      "skills": "Skills learnt:",
+      "nameLego": "Three level Lego game",
+      "tallinn": "Crazy Tallinn game",
+      "tallinnDesc": "This is the first game I built. Including selecting all of the assets, tracks and designing the game.",
+      "nameTallinn": "Crazy Tallinn game",
+      "SQLinject": "SQL injection website",
+      "SQLDesc": "I built this with my classmate. I did all of the backend and also the home page, navbar and some of the login pages' code.",
+      "cyber": "Cybersecurity"
+    },
+
+    "about": {
+      "title": "About me",
+      "name": "I am Juta Lockey",
+      "jobTitle": "Junior software developer",
+      "description1": "My programming journey started into the programming world in August 2021. I have recently graduated from Varia vocational school in May 2024. Also currently studying partially in Metropolia higher vocational school.",
+      "description2": "I am a quick learner, highly motivated and hard working. I am a good team player and also capable of working independently very well also. I always try to keep myself up to date on the latest in the technology sector. To keep myself updated with everything I attend a lot of seminars and expos. Like technology and cybersecurity expos.",
+      "description3": "My main focus in a job is always to build a good program for the client that is safe to use, easy to use and functional. Safety is one of my main focuses because during my studies in Varia I also studied cybersecurity. And know that safety should be on every programmers mind.",
+      "description4": "My hobbies are: outdoor activities and travelling. I also enjoy spending time with friends.",
+      "contact": "Contact me",
+      "cv": "Open CV",
+      "projects": "Projects"
+    },
+
+    "contact": {
+      "emailAlert": "Please enter a valid email address with an \"@\" symbol.",
+      "alert": "Message sent!",
+      "consoleError": "Error sending a message: ",
+      "errorAlert": "Oops! Something went wrong. Please try again later.",
+      "title": "Contact me",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  }

@@ -1,0 +1,77 @@
+.mainContainer {
+  position: relative;
+  width: 100%;
+  background-color: rgb(239, 228, 228);
+  padding-bottom: 50px;
+
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+
+  }
+  img {
+    height: 300px;
+    width: 100%;
+  }
+
+
+  .animatedText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    overflow: hidden; /* Ensures the letters appear one at a time */
+    white-space: nowrap; /* Prevents wrapping */
+    border-right: 4px solid transparent; /* Optional, gives a typing cursor effect */
+    animation: revealText 4s steps(30) 1s forwards; /* Adjust timing to match number of characters */
+    text-align: center;
+    width: 0;
+  }
+
+  @keyframes revealText {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  .paddings{
+    padding: 20px 10px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .gradientBorder {
+    border: 10px solid;
+    border-image: conic-gradient(from 0, #c88f62, #d4a071, #fee3b8, #eec293, #bc7f51, #cd9466, #c48b5d, #ba794c, #ffeabf, #c18457, #c88f60, #c88f62) 1;
+    padding: 10px 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+  }
+
+  button {
+    margin-right: 10px;
+    margin: 15px;
+    background-color: lightpink;
+    border: lightpink;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 5px 5px 2px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .buttonSpacing {
+    margin: 5px;
+  }
+
+
+}
