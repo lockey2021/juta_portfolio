@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import {db} from '../../contactFormFirebase/firebaseConfig'
 import { collection, addDoc } from 'firebase/firestore'
 import { useTranslation } from 'react-i18next'
+import DOMPurify from 'dompurify'
 
 
 type ContactProps = {
@@ -14,6 +15,9 @@ const Contact: React.FC<ContactProps> = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -24,11 +28,17 @@ const Contact: React.FC<ContactProps> = () => {
       return;
     }
 
+    // Sanitize inputs
+    const sanitizedMessage = DOMPurify.sanitize(message);
+    const sanitizedName = DOMPurify.sanitize(name);
+    const sanitizedEmail = DOMPurify.sanitize(email);
+  
+
     try {
       await addDoc(collection(db, 'messages'), {
-        name,
-        email,
-        message,
+        name: sanitizedName,
+        email: sanitizedEmail,
+        message: sanitizedMessage,
         timestamp: new Date(),
       });
       alert(t('contact.alert'));

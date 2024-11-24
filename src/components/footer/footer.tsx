@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import {db} from '../contactFormFirebase/firebaseConfig'
 import { collection, addDoc } from 'firebase/firestore'
 import {useTranslation} from 'react-i18next'
+import DOMPurify from 'dompurify'
 
 
 type FooterProps = {
@@ -26,11 +27,16 @@ const Footer: React.FC<FooterProps> = () => {
       return;
     }
 
+    // Sanitize inputs
+    const sanitizedMessage = DOMPurify.sanitize(message);
+    const sanitizedName = DOMPurify.sanitize(name);
+    const sanitizedEmail = DOMPurify.sanitize(email);
+
     try {
       await addDoc(collection(db, 'messages'), {
-        name,
-        email,
-        message,
+        name: sanitizedName,
+        email: sanitizedEmail,
+        message: sanitizedMessage,
         timestamp: new Date(),
       });
       alert(t('footer.alert'));

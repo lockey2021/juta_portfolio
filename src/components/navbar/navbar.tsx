@@ -33,6 +33,10 @@ const Navbar: React.FC<NavbarProps> = () => {
   useEffect (() => {
     document.title = t('header.title');
   }, [i18n.language, t])
+
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
   
 
   return (
