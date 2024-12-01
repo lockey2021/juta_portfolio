@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a55a38f8.css",
-    "main.js": "./static/js/main.96a86308.js",
+    "main.css": "./static/css/main.446a8366.css",
+    "main.js": "./static/js/main.6d8e53bc.js",
     "static/js/787.c9ac72f5.chunk.js": "./static/js/787.c9ac72f5.chunk.js",
     "static/media/beautifulSky.jpg": "./static/media/beautifulSky.3706d8a1da3aae42d33c.jpg",
     "static/media/SQLinjection2.png": "./static/media/SQLinjection2.4fea3f9767535d801ee1.png",
@@ -11,14 +11,14 @@
     "static/media/navbarIM.jpg": "./static/media/navbarIM.1ed6bb8a5f51ded14ccf.jpg",
     "static/media/footerIM.jpg": "./static/media/footerIM.0364e6ac25bd6957d4f2.jpg",
     "static/media/JutaLockeyOhjelmointiSuomiCV23112024.pdf": "./static/media/JutaLockeyOhjelmointiSuomiCV23112024.6d55a7b32348bcf79f1b.pdf",
-    "static/media/JutaProgrammingCV23112024.pdf": "./static/media/JutaProgrammingCV23112024.0a4f35c2177f6bbb2a20.pdf",
+    "static/media/JutaProgrammingCV23112024.pdf": "./static/media/JutaProgrammingCV23112024.c1c0fc33eee7791d2b1b.pdf",
     "index.html": "./index.html",
-    "main.a55a38f8.css.map": "./static/css/main.a55a38f8.css.map",
-    "main.96a86308.js.map": "./static/js/main.96a86308.js.map",
+    "main.446a8366.css.map": "./static/css/main.446a8366.css.map",
+    "main.6d8e53bc.js.map": "./static/js/main.6d8e53bc.js.map",
     "787.c9ac72f5.chunk.js.map": "./static/js/787.c9ac72f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a55a38f8.css",
-    "static/js/main.96a86308.js"
+    "static/css/main.446a8366.css",
+    "static/js/main.6d8e53bc.js"
   ]
 }
