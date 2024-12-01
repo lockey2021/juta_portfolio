@@ -1,9 +1,13 @@
+// old footer font-family sans-serif. I might change it back at some point but have to remember to change it for all the pages.
+//old footer logo font: normal 22px 'Roboto', cursive; It looked great in apple but couldn't find any decent fonts for other platforms.
+// didn't add the shadow because it was too much. Also fixed the CV wohoo.
+
 .footercontainer{
 	background: #fcd3d9;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
+	font: bold 18px 'Times New Roman', Times, serif;
 	text-align: left;
 	padding: 20px 20px 20px;
 	overflow: hidden;
@@ -27,13 +31,22 @@
 //footer left
 h3{
 	color:  black;
-	font: normal 22px 'Roboto', cursive;
+	font: bold 22px 'Times New Roman', Times, serif;
+	//text-shadow: 2px 2px white;
 	margin: 0 0 0;
 }
+
+ul {
+	margin: 5px 0 18px;
+
+}
+
 li {
 	list-style-type: none;
 
 }
+
+
 .footLinks{
 	color:  black;
 	margin: 0 0 10px;
